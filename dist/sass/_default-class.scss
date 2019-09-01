@@ -1,0 +1,17 @@
+html, body {
+  //overflow-x: hidden;
+  font-family: 'Ubuntu', 'Myriad Pro', sans-serif;
+}
+
+body {
+  margin: 0;
+  color: $black;
+  //overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+header,main,footer {
+  max-width: 100%;
+  transition: margin $transition;
+}
