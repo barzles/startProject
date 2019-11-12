@@ -1,6 +1,7 @@
 html, body {
-  //overflow-x: hidden;
+  overflow-x: hidden;
   font-family: 'Ubuntu', 'Myriad Pro', sans-serif;
+  height: 100%;
 }
 
 body {
@@ -14,4 +15,7 @@ h1,h2,h3,h4,h5,h6 {
 header,main,footer {
   max-width: 100%;
   transition: margin $transition;
+}
+main {
+	height: 100%;
 }
